@@ -29,14 +29,14 @@ The Pipeline flow explains how the different Components of the System Operate se
 
 Supporting Operational Layers such as **Job Orchestration, Streaming Ingestion Capability, Performance Monitoring, & Cost Optimization** are also considered to reflect how such a System would Operate in a Production Environment.
 
-3. Retraining Strategy
+## 3. Retraining Strategy
 
-The final part of Day-13 defines a model retraining strategy to ensure the machine learning system remains accurate as new data becomes available.
+The Final Part of Day-13 defines a **Model Retraining Strategy** to ensure the Machine Learning System remains accurate as New Data becomes available.
 
-Retraining can be triggered through scheduled workflows or changes in data distribution. Updated datasets are generated from Delta tables, models are retrained and evaluated, and experiments are tracked using MLflow. The best-performing model is then redeployed to the inference pipeline.
+Retraining can be triggered through Scheduled Workflows or Changes in Data Distribution. Updated Datasets are generated from Delta Tables, Models are Retrained and Evaluated, & Experiments are tracked using MLflow. The Best-Performing Model is then redeployed to the Inference Pipeline.
 
-Key Note
+### Key Note
 
-There is no new code implementation in Day-13. The architecture, pipeline documentation, and retraining strategy are based entirely on insights derived from the code activities performed from Day-0 through Day-12 of the challenge.
+There is **No New Code Implementation in Day-13**. The Architecture, Pipeline Documentation, & Retraining Strategy are based entirely on Insights derived from the **Code Activities Performed from Day-0 through Day-12** of the Challenge.
 
-The goal of this stage is to translate individual experiments and implementations into a structured, production-oriented system design.
+The Goal of this Stage is to Translate Individual Experiments & Implementations into a **Structured, Production-Oriented System Design**.
