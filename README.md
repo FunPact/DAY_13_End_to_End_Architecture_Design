@@ -1,14 +1,12 @@
-This Repository contains the Visual & Conceptual Outputs developed for Day-13 of the Databricks 14 Days AI Challenge – 2 (Advanced). The Objective of this Stage was to tep back from Implementation & Document how the different Components built during the Previous Days connect into a Single Production-Style Data & AI Pipeline.
+This Repository contains the Visual & Conceptual Outputs developed for **Day-13 of the Databricks 14 Days AI Challenge – 2 (Advanced)**. The Objective of this Stage was to tep back from Implementation & Document how the different Components built during the Previous Days connect into a Single Production-Style Data & AI Pipeline.
 
-Unlike earlier stages of the challenge, Day-13 does not involve the development of any new code-based implementation. Instead, it focuses on architecture design, system documentation, and lifecycle planning.
+Unlike earlier Stages of the Challenge, **Day-13 does not involve the Development of any New Code-Based Implementation**. Instead, it focuses on Architecture Design, System Documentation, and Lifecycle Planning.
 
-The materials in this repository include:
+The Materials in this Repository include:
 
-Architecture Diagram
-
-Single-page Carousel explaining the system design
-
-Documentation of pipeline flow and retraining strategy
+- Architecture Diagram
+- Two-Pages Carousel Explaining the System Design
+- Documentation of Pipeline Flow & Retraining Strategy
 
 These outputs were derived from observations and learnings from the code activities completed between Day-0 and Day-12.
 
