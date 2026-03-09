@@ -8,31 +8,26 @@ The Materials in this Repository include:
 - Two-Pages Carousel Explaining the System Design
 - Documentation of Pipeline Flow & Retraining Strategy
 
-These outputs were derived from observations and learnings from the code activities completed between Day-0 and Day-12.
+These Outputs were derived from **Observations & Learnings from the Code Activities Completed between Day-0 & Day-12**.
 
-1. Architecture Design
+## 1. Architecture Design
 
-The architecture diagram represents a lakehouse-based machine learning pipeline built on the Databricks platform. It illustrates how raw e-commerce event data moves through different layers of the system.
+The Architecture Diagram represents a **Lakehouse-based Machine Learning Pipeline** built on the Databricks Platform. It illustrates how Raw E-Commerce Event Data moves through different Layers of the System.
 
-The flow begins with raw CSV ingestion into the Bronze Layer, where the data is stored as Delta tables. From there, feature engineering processes transform event-level data into aggregated user features within the Silver Layer. These curated datasets are used to prepare training datasets for machine learning models.
+The Flow begins with **Raw CSV Ingestion** into the **Bronze Layer**, where the Data is stored as Delta tables. From there, Feature Engineering Processes transform Event-Level Data into Aggregated user Features within the Silver Layer. These Curated Datasets are used to Prepare Training Datasets for Machine Learning Models.
 
-Model training and evaluation are performed using algorithms such as Logistic Regression and Random Forest, with experiment tracking handled through MLflow. The trained model is then used in a batch inference pipeline to generate predictions stored in the Gold Layer. A collaborative filtering recommendation component using ALS complements the prediction pipeline by generating product recommendations.
+Model Training & Evaluation are performed using Algorithms such as **Logistic Regression and Random Forest**, with Experiment Tracking handled through **MLflow**. The Trained Model is then used in a **Batch Inference Pipeline** to generate Predictions stored in the **Gold Layer**. A Collaborative Filtering Recommendation Component using **ALS** Complements the Prediction Pipeline by Generating Product Recommendations.
 
-2. Pipeline Flow Documentation
+## 2. Pipeline Flow Documentation
 
-The pipeline flow explains how the different components of the system operate sequentially. The workflow includes:
+The Pipeline flow explains how the different Components of the System Operate sequentially. The Workflow includes:
+1. Data Ingestion & Delta Table Creation
+2. Feature Engineering & Data Validation
+3. Training Dataset Preparation
+4. Model Training & Experiment Tracking
+5. Batch Inference & Prediction Generation
 
-Data ingestion and Delta table creation
-
-Feature engineering and data validation
-
-Training dataset preparation
-
-Model training and experiment tracking
-
-Batch inference and prediction generation
-
-Supporting operational layers such as job orchestration, streaming ingestion capability, performance monitoring, and cost optimization are also considered to reflect how such a system would operate in a production environment.
+Supporting Operational Layers such as **Job Orchestration, Streaming Ingestion Capability, Performance Monitoring, & Cost Optimization** are also considered to reflect how such a System would Operate in a Production Environment.
 
 3. Retraining Strategy
 
